@@ -9,6 +9,12 @@ double cal(double a, double b, int c) {
     }else if (c == 2) {
         result = a - b;
         return result;
+    }else if (c == 3) {
+        result = a * b;
+        return result;
+    }else if (c == 4) {
+        result = a / b;
+        return result;
     }
 }
 
